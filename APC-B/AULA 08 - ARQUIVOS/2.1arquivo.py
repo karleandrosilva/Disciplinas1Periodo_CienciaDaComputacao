@@ -1,0 +1,6 @@
+arq = open('dados/2usuarios.txt')
+texto = arq.read()
+arq.close()
+print(texto)
+texto = texto.split('\n')
+print(texto)
